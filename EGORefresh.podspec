@@ -14,6 +14,8 @@ Pod::Spec.new do |s|
 
   s.source_files = '**/*.{m,h}'
   s.public_header_files = '**/*.h'
+  
+  s.requires_arc = true
 
 end
 
