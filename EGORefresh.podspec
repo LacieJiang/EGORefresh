@@ -11,12 +11,10 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '5.0'
 
-  s.source_files = '**/*.{m,h}'
-  s.public_header_files = '**/*.h'
+  s.source_files = './**/*.{m,h}'
+  s.public_header_files = './**/*.h'
   
   s.requires_arc = true
-  
-  s.framework = 'UIKit'
 
 end
 
